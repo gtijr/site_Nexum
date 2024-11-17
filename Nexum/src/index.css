@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face{
+    font-family: "Fraunces";
+    src: url("./fonts/Fraunces/Fraunces-VariableFont_SOFT,WONK,opsz,wght.ttf");
+    font-style: normal;
+    font-display: swap;
+}
+@font-face{
+    font-family: "NunitoSans";
+    src: url("./fonts/NunitoSans/NunitoSans-VariableFont_YTLC,opsz,wdth,wght.ttf");
+    font-style: normal;
+    font-display: swap;
+}
