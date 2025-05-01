@@ -1,23 +1,27 @@
+import Header from "./components/Header"
+import HeroSection from "./components/HeroSection"
+import ServicesSection from "./components/ServicesSection"
+import CasesSection from "./components/CasesSection"
+import TestimonialsSection from "./components/TestimonialsSection"
+import ContactSection from "./components/ContactSection"
+import FaqSection from "./components/FaqSection"
+import LocationSection from "./components/LocationSection"
+import Footer from "./components/Footer"
 
 function App() {
   return (
-    <>
-    <header className="bg-neutral-800 text-whiteFont h-20 ">
-      <div className="w-full max-w-[1280px] my-0 mx-auto flex justify-between">
-        <img src="vite.svg" alt="logo" />
-        <nav>
-          <ul className="flex">
-            <li>Serviços</li>
-            <li>Casos</li>
-            <li>Depoimentos</li>
-            <li>Contato</li>
-            <li>Localização</li>
-          </ul>
-        </nav>
-        <button>Whatsapp</button>
-      </div>
-    </header>
-    </>
+    <div className="App">
+      <Header />
+      <HeroSection />
+      <ServicesSection />
+      <div className="w-full h-24 bg-yellowBg"></div>
+      <CasesSection />
+      <TestimonialsSection />
+      <ContactSection />
+      <FaqSection />
+      <LocationSection />
+      <Footer />
+    </div>
   )
 }
 
