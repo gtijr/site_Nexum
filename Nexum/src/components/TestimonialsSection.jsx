@@ -8,7 +8,7 @@ const TestimonialsSection = () => {
         </p>
 
         <div className="relative">
-          <div className="flex overflow-x-hidden">
+          <div className="flex mx-10 overflow-x-hidden">
             <div className="flex-shrink-0 w-full md:w-1/2 p-4">
               <div className="bg-yellowBg p-6 rounded-lg">
                 <p className="font-NunitoSans mb-4">
@@ -78,10 +78,44 @@ const TestimonialsSection = () => {
                 </div>
               </div>
             </div>
+            <div className="flex-shrink-0 w-full md:w-1/2 p-4">
+              <div className="bg-yellowBg p-6 rounded-lg">
+                <p className="font-NunitoSans mb-4">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque consequat magna eu tellus
+                  lacinia, non consequat magna. Aliquam id dictum lorem.
+                </p>
+                <div className="flex items-center justify-between">
+                  <div className="flex items-center">
+                    <div className="w-10 h-10 bg-gray-300 rounded-full mr-3">
+                      {/* Placeholder para foto do cliente */}
+                    </div>
+                    <div>
+                      <p className="font-bold font-NunitoSans">Cliente 2</p>
+                      <p className="text-sm font-NunitoSans">Empresa</p>
+                    </div>
+                  </div>
+                  <div className="flex">
+                    {[...Array(5)].map((_, i) => (
+                      <svg
+                        key={i}
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        className="text-neutral-900"
+                      >
+                        <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                      </svg>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
 
           {/* Botões de navegação */}
-          <button className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-neutral-900/50 text-whiteFont p-2 rounded-full">
+          <button className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-neutral-900/50 text-yellowBg p-2 border rounded-full border-yellowBg">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -97,11 +131,11 @@ const TestimonialsSection = () => {
               <path d="M15 18l-6-6 6-6" />
             </svg>
           </button>
-          <button className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-neutral-900/50 text-whiteFont p-2 rounded-full">
+          <button className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-transparent text-yellowBg  p-2 border  rounded-full  border-yellowBg">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
+              width="20"
+              height="20"
               viewBox="0 0 24 24"
               fill="none"
               stroke="currentColor"
