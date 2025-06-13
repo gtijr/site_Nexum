@@ -7,42 +7,46 @@ const CasesSection = () => {
           <img src="/tribunal.png" alt="tribunal" className="h-32"/>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="flex flex-row">
           {/* Caso 1 */}
-          <div className="flex flex-col md:flex-row gap-4">
-            <div className="bg-gray-300 w-full md:w-1/2 h-48 rounded-lg">{/* Placeholder para imagem */}</div>
-            <div className="md:w-1/2">
-              <h3 className="text-xl font-bold text-whiteFont mb-2 font-Fraunces">Título</h3>
-              <p className="text-whiteFont font-NunitoSans">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque consequat magna eu tellus lacinia,
-                non consequat magna. Aliquam id dictum lorem.
+          <div className="flex flex-col gap-4 mr-10">
+            <div className="bg-gray-300 w-[32rem] h-56 rounded-lg">{/* Placeholder para imagem */}</div>
+            <div className="max-w-[32rem]">
+              <h3 className="text-4xl font-bold text-whiteFont mb-2 font-NunitoSans">Título</h3>
+              <p className="text-whiteFont font-NunitoSans text-xl text-left">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque commodo maximus nunc consectetur tempor. 
+                Aliquam a vehicula magna, vel dictum lorem.
               </p>
             </div>
           </div>
 
-          {/* Caso 2 */}
-          <div className="flex flex-col md:flex-row gap-4">
-            <div className="bg-gray-300 w-full md:w-1/2 h-48 rounded-lg">{/* Placeholder para imagem */}</div>
-            <div className="md:w-1/2">
-              <h3 className="text-xl font-bold text-whiteFont mb-2 font-Fraunces">Título</h3>
-              <p className="text-whiteFont font-NunitoSans">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque consequat magna eu tellus lacinia,
-                non consequat magna. Aliquam id dictum lorem.
-              </p>
+          <div className="flex flex-col">
+            {/* Caso 2 */}
+            <div className="flex flex-row gap-4 mb-5">
+              <div className="bg-gray-300 min-w-[15rem] h-56 rounded-lg">{/* Placeholder para imagem */}</div>
+              <div className="max-w-[26rem]">
+                <h3 className="text-4xl font-bold text-whiteFont mb-2 font-NunitoSans">Título</h3>
+                <p className="text-whiteFont font-NunitoSans text-xl text-left">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque commodo maximus nunc consectetur tempor. 
+                  Aliquam a vehicula magna, vel dictum lorem.
+                </p>
+              </div>
+            </div>
+
+            {/* Caso 3 */}
+            <div className="flex flex-row gap-4">
+              <div className="bg-gray-300 min-w-[15rem] h-56 rounded-lg">{/* Placeholder para imagem */}</div>
+              <div className="max-w-[26rem]">
+                <h3 className="text-4xl font-bold text-whiteFont mb-2 font-NunitoSans">Título</h3>
+                <p className="text-whiteFont font-NunitoSans text-xl text-left">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque commodo maximus nunc consectetur tempor. 
+                  Aliquam a vehicula magna, vel dictum lorem.
+                </p>
+              </div>
             </div>
           </div>
 
-          {/* Caso 3 */}
-          <div className="flex flex-col md:flex-row gap-4">
-            <div className="md:w-1/2">
-              <h3 className="text-xl font-bold text-whiteFont mb-2 font-Fraunces">Título</h3>
-              <p className="text-whiteFont font-NunitoSans">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque consequat magna eu tellus lacinia,
-                non consequat magna. Aliquam id dictum lorem.
-              </p>
-            </div>
-            <div className="bg-gray-300 w-full md:w-1/2 h-48 rounded-lg">{/* Placeholder para imagem */}</div>
-          </div>
+
         </div>
       </div>
     </section>
