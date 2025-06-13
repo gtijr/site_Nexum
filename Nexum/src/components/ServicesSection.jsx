@@ -1,9 +1,6 @@
 const ServicesSection = () => {
   return (
     <section id="servicos" className="bg-neutral-900 py-16">
-      <div className="container xl:max-w-screen-xl mx-auto px-4">
-        <div className="flex justify-between items-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-whiteFont font-Fraunces">Nossos Serviços</h2>
           <div className="text-yellowBg">
             {/* Ícone de martelo */}
             <svg
@@ -23,6 +20,9 @@ const ServicesSection = () => {
               <path d="M20.91 11.7l-1.25-1.25c-.6-.6-.93-1.4-.93-2.25v-.86L16.01 4.6a5.56 5.56 0 00-3.94-1.64H9l.92.82A6.18 6.18 0 0112 8.4v1.56l2 2h2.47l2.26 1.91"></path>
             </svg>
           </div>
+      <div className="container xl:max-w-screen-xl mx-auto px-4 flex flex-col items-center">
+        <div className="flex justify-between flex-col">
+          <h2 className="text-6xl font-bold text-whiteFont font-Fraunces">Nossos Serviços</h2>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
