@@ -14,7 +14,7 @@ function App() {
       <Header />
       <HeroSection />
       <ServicesSection />
-      <div className="w-full h-24 bg-yellowBg"></div>
+      <div className="w-full h-[20rem] bg-yellowBg"></div>
       <CasesSection />
       <TestimonialsSection />
       <ContactSection />
