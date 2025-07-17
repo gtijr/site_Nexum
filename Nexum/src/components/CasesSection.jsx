@@ -9,8 +9,8 @@ const CasesSection = () => {
 
         <div className="flex flex-row">
           {/* Caso 1 */}
-          <div className="flex flex-col gap-4 mr-10">
-            <div className="bg-gray-300 w-[32rem] h-56 rounded-lg">{/* Placeholder para imagem */}</div>
+          <div className="flex flex-col gap-4 mr-7">
+            <div className="bg-gray-300 w-[32rem] h-64 rounded-lg">{/* Placeholder para imagem */}</div>
             <div className="max-w-[32rem]">
               <h3 className="text-4xl font-bold text-whiteFont mb-2 font-NunitoSans">Título</h3>
               <p className="text-whiteFont font-NunitoSans text-xl text-left">
@@ -23,12 +23,11 @@ const CasesSection = () => {
           <div className="flex flex-col">
             {/* Caso 2 */}
             <div className="flex flex-row gap-4 mb-5">
-              <div className="bg-gray-300 min-w-[15rem] h-56 rounded-lg">{/* Placeholder para imagem */}</div>
-              <div className="max-w-[26rem]">
+              <div className="bg-gray-300 min-w-[15rem] h-64 rounded-lg">{/* Placeholder para imagem */}</div>
+              <div className="h-64">
                 <h3 className="text-4xl font-bold text-whiteFont mb-2 font-NunitoSans">Título</h3>
                 <p className="text-whiteFont font-NunitoSans text-xl text-left">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque commodo maximus nunc consectetur tempor. 
-                  Aliquam a vehicula magna, vel dictum lorem.
                 </p>
               </div>
             </div>
@@ -36,11 +35,10 @@ const CasesSection = () => {
             {/* Caso 3 */}
             <div className="flex flex-row gap-4">
               <div className="bg-gray-300 min-w-[15rem] h-56 rounded-lg">{/* Placeholder para imagem */}</div>
-              <div className="max-w-[26rem]">
+              <div className="h-64">
                 <h3 className="text-4xl font-bold text-whiteFont mb-2 font-NunitoSans">Título</h3>
                 <p className="text-whiteFont font-NunitoSans text-xl text-left">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque commodo maximus nunc consectetur tempor. 
-                  Aliquam a vehicula magna, vel dictum lorem.
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque commodo maximus nunc consectetur tempor.                 
                 </p>
               </div>
             </div>
