@@ -3,12 +3,13 @@ const Footer = () => {
     <footer className="bg-neutral-900 text-whiteFont">
       <div className="container xl:max-w-screen-xl mx-auto px-4 py-8">
         <div className="flex flex-col md:flex-row justify-between items-center">
-          <div className="mb-4 md:mb-0">
+          <div className="mb-4 md:mb-0 flex flex-row items-center justify-center">
             <a href="/">
               <div className="bg-yellowBg w-12 h-12 flex items-center justify-center mr-8">
                 <img src="/logo.png" alt="logo-footer" />
               </div>
             </a>
+            <p className="font-sans font-xs"> 2024 Desenvolvido com ❤ por GTI Engenharia Jr </p>
           </div>
 
           <div className="flex space-x-6 mb-4 md:mb-0">
