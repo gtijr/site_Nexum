@@ -5,24 +5,8 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
             <a href="/">
-              <div className="bg-yellowBg w-12 h-12 flex items-center justify-center">
-                {/* Placeholder para o ícone do logo */}
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  className="text-white"
-                >
-                  <path d="M12 2L2 7l10 5 10-5-10-5z" />
-                  <path d="M2 17l10 5 10-5" />
-                  <path d="M2 12l10 5 10-5" />
-                </svg>
+              <div className="bg-yellowBg w-12 h-12 flex items-center justify-center mr-8">
+                <img src="/logo.png" alt="logo-footer" />
               </div>
             </a>
           </div>
