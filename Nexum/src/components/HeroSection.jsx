@@ -56,9 +56,10 @@ const HeroSection = () => {
         </div>
         <div className="md:w-1/2 relative">
           {/* Placeholder para a imagem do profissional com asas */}
-          <div className="bg-yellowBg w-full h-96 relative">
-            {/* Aqui você colocará a imagem do profissional */}
-            <div className="absolute inset-0 flex items-center justify-center text-neutral-900">Imagem do profissional</div>
+          <div className="w-full relative">
+            <div className=" inset-0 flex items-center justify-center ">
+              <img  className="" src="profissionalRD.png" alt="" />
+            </div>
           </div>
         </div>
       </div>
